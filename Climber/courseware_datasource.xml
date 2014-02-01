@@ -1,0 +1,36 @@
+﻿<xml version="1.0" encoding="utf-8">
+  <coursewares>
+    <courseware id="1" name="rockclimbing">
+      <course id="1" name="Rock Climbing for Beginners" description="" publisher="vooktv" publisher_logo_url="http://i1.ytimg.com/i/_j6nnmM-LIVtVwwHj5aOUg/1.jpg?v=770d28" publisher_youtube_channel="http://www.youtube.com/user/vooktv?feature=watch" publisher_website_url="http://www.vook.com/">
+        <lesson serial="1.1" name="Introduction to Rock Climbing" url="http://www.youtube.com/watch?v=gLfvk2SSj1c" description="" />
+        <lesson serial="1.2" name="Rock Climbing Gear" url="http://www.youtube.com/watch?v=tXwV0YD222g" description="" />
+        <lesson serial="1.3" name="Being The Climber" url="http://www.youtube.com/watch?v=QfTIUKyqCWc" description="" />
+        <lesson serial="1.4" name="Setting Up As The Belayer" url="http://www.youtube.com/watch?v=m-FbtppVC7w" description="" />
+        <lesson serial="1.5" name="Climbing Techniques 1" url="http://www.youtube.com/watch?v=jbIDnMmSLsc" description="" />
+        <lesson serial="1.6" name="Climbing Techniques 2" url="http://www.youtube.com/watch?v=gkMngYYadjE" description="" />
+        <lesson serial="1.7" name="Bouldering" url="http://www.youtube.com/watch?v=ddSTXPZuff8" description="" />
+        <lesson serial="1.8" name="Lead Climbing" url="http://www.youtube.com/watch?v=q4rVY3sLQqA" description="" />
+      </course>
+      <course id="2" name="How to Rock Climb" description="Indoor rock climbing is a great way to get the thrill of mountain climbing without the risks. Plus, it provides a full-body workout and helps you flex your problem-solving muscles, too. In these videos, you'll learn all the basics -- how to grip indoor climbing holds; how to set up a top-rope belay; how to use heel and toe hooks; how to lower a climber in a top-rope belay; how to take and catch a lead fall; how to do a dynamic movement; and much more." publisher="Howcast" publisher_logo_url="https://yt3.ggpht.com/-_jljTUGrHTI/AAAAAAAAAAI/AAAAAAAAAAA/nUvtiRI96PA/s48-c-k-no/photo.jpg" publisher_youtube_channel="http://www.youtube.com/user/Howcast?feature=watch" publisher_website_url="http://www.howcast.com/">
+        <lesson serial="2.1" name="Different Types of Indoor Climbing" url="http://www.youtube.com/watch?v=QlZ7sMGavw4" description="" />
+        <lesson serial="2.2" name="5 Fundamentals of Indoor Rock Climbing" url="http://www.youtube.com/watch?v=30y8Uy0B_uk" description="" />
+        <lesson serial="2.3" name="How to Grip Indoor Climbing Holds" url="http://www.youtube.com/watch?v=1IihoA3e0Kw" description="" />
+        <lesson serial="2.4" name="How to use Chalk for Indoor Climbing" url="http://www.youtube.com/watch?v=K6F_pKdIOlo" description="" />
+        <lesson serial="2.5" name="How to fit a climbing harness" url="http://www.youtube.com/watch?v=HIb1qPfz4Lo" description="" />
+        <lesson serial="2.6" name="How to tie figure 8 follow-through knot" url="http://www.youtube.com/watch?v=tFffbkXSgNI" description="" />
+        <lesson serial="2.7" name="How to set up a top-rope belay" url="http://www.youtube.com/watch?v=beVw41NwevU" description="" />
+        <lesson serial="2.8" name="How to use proper top-rope belay method" url="http://www.youtube.com/watch?v=w5ZT9M9m_2Y" description="" />
+        <lesson serial="2.9" name="" url="" description="" />
+        <lesson serial="2.10" name="" url="" description="" />
+        <lesson serial="2.11" name="" url="" description="" />
+        <lesson serial="2.12" name="" url="" description="" />
+        <lesson serial="2.13" name="" url="" description="" />
+        <lesson serial="2.14" name="" url="" description="" />
+        <lesson serial="2.15" name="" url="" description="" />
+        <lesson serial="2.16" name="" url="" description="" />
+        <lesson serial="2.17" name="" url="" description="" />
+        <lesson serial="2.18" name="" url="" description="" />
+      </course>
+    </courseware>
+  </coursewares>
+</xml>
