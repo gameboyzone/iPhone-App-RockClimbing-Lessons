@@ -20,6 +20,7 @@
 		CDFE4C08189B1BFC00BF36B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE4BE7189B1BFB00BF36B5 /* UIKit.framework */; };
 		CDFE4C10189B1BFC00BF36B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDFE4C0E189B1BFC00BF36B5 /* InfoPlist.strings */; };
 		CDFE4C12189B1BFC00BF36B5 /* ClimberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4C11189B1BFC00BF36B5 /* ClimberTests.m */; };
+		CDFE4C1C189D8EBD00BF36B5 /* courseware_datasource.xml in Resources */ = {isa = PBXBuildFile; fileRef = CDFE4C1B189D8EBD00BF36B5 /* courseware_datasource.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		CDFE4C0D189B1BFC00BF36B5 /* ClimberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClimberTests-Info.plist"; sourceTree = "<group>"; };
 		CDFE4C0F189B1BFC00BF36B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDFE4C11189B1BFC00BF36B5 /* ClimberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClimberTests.m; sourceTree = "<group>"; };
+		CDFE4C1B189D8EBD00BF36B5 /* courseware_datasource.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = courseware_datasource.xml; path = ../../../Desktop/courseware_datasource.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		CDFE4BE9189B1BFB00BF36B5 /* Climber */ = {
 			isa = PBXGroup;
 			children = (
+				CDFE4C1B189D8EBD00BF36B5 /* courseware_datasource.xml */,
 				CDFE4BF2189B1BFB00BF36B5 /* RITAppDelegate.h */,
 				CDFE4BF3189B1BFB00BF36B5 /* RITAppDelegate.m */,
 				CDFE4BF5189B1BFC00BF36B5 /* Main.storyboard */,
@@ -226,6 +229,7 @@
 			files = (
 				CDFE4BFF189B1BFC00BF36B5 /* Images.xcassets in Resources */,
 				CDFE4BEE189B1BFB00BF36B5 /* InfoPlist.strings in Resources */,
+				CDFE4C1C189D8EBD00BF36B5 /* courseware_datasource.xml in Resources */,
 				CDFE4BF7189B1BFC00BF36B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
