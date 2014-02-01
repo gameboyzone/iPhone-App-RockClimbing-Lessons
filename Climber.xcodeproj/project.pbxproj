@@ -14,8 +14,6 @@
 		CDFE4BF0189B1BFB00BF36B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4BEF189B1BFB00BF36B5 /* main.m */; };
 		CDFE4BF4189B1BFB00BF36B5 /* RITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4BF3189B1BFB00BF36B5 /* RITAppDelegate.m */; };
 		CDFE4BF7189B1BFC00BF36B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFE4BF5189B1BFC00BF36B5 /* Main.storyboard */; };
-		CDFE4BFA189B1BFC00BF36B5 /* RITFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4BF9189B1BFC00BF36B5 /* RITFirstViewController.m */; };
-		CDFE4BFD189B1BFC00BF36B5 /* RITSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4BFC189B1BFC00BF36B5 /* RITSecondViewController.m */; };
 		CDFE4BFF189B1BFC00BF36B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFE4BFE189B1BFC00BF36B5 /* Images.xcassets */; };
 		CDFE4C06189B1BFC00BF36B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE4C05189B1BFC00BF36B5 /* XCTest.framework */; };
 		CDFE4C07189B1BFC00BF36B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE4BE3189B1BFB00BF36B5 /* Foundation.framework */; };
@@ -46,10 +44,6 @@
 		CDFE4BF2189B1BFB00BF36B5 /* RITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITAppDelegate.h; sourceTree = "<group>"; };
 		CDFE4BF3189B1BFB00BF36B5 /* RITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITAppDelegate.m; sourceTree = "<group>"; };
 		CDFE4BF6189B1BFC00BF36B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CDFE4BF8189B1BFC00BF36B5 /* RITFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITFirstViewController.h; sourceTree = "<group>"; };
-		CDFE4BF9189B1BFC00BF36B5 /* RITFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITFirstViewController.m; sourceTree = "<group>"; };
-		CDFE4BFB189B1BFC00BF36B5 /* RITSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITSecondViewController.h; sourceTree = "<group>"; };
-		CDFE4BFC189B1BFC00BF36B5 /* RITSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITSecondViewController.m; sourceTree = "<group>"; };
 		CDFE4BFE189B1BFC00BF36B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDFE4C04189B1BFC00BF36B5 /* ClimberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFE4C05189B1BFC00BF36B5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,10 +112,6 @@
 				CDFE4BF2189B1BFB00BF36B5 /* RITAppDelegate.h */,
 				CDFE4BF3189B1BFB00BF36B5 /* RITAppDelegate.m */,
 				CDFE4BF5189B1BFC00BF36B5 /* Main.storyboard */,
-				CDFE4BF8189B1BFC00BF36B5 /* RITFirstViewController.h */,
-				CDFE4BF9189B1BFC00BF36B5 /* RITFirstViewController.m */,
-				CDFE4BFB189B1BFC00BF36B5 /* RITSecondViewController.h */,
-				CDFE4BFC189B1BFC00BF36B5 /* RITSecondViewController.m */,
 				CDFE4BFE189B1BFC00BF36B5 /* Images.xcassets */,
 				CDFE4BEA189B1BFB00BF36B5 /* Supporting Files */,
 			);
@@ -255,9 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFE4BFA189B1BFC00BF36B5 /* RITFirstViewController.m in Sources */,
 				CDFE4BF4189B1BFB00BF36B5 /* RITAppDelegate.m in Sources */,
-				CDFE4BFD189B1BFC00BF36B5 /* RITSecondViewController.m in Sources */,
 				CDFE4BF0189B1BFB00BF36B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +455,7 @@
 				CDFE4C17189B1BFC00BF36B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDFE4C18189B1BFC00BF36B5 /* Build configuration list for PBXNativeTarget "ClimberTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +464,7 @@
 				CDFE4C1A189B1BFC00BF36B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
