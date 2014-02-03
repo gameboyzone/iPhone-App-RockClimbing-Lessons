@@ -7,12 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EDDCF36189EBB3A004F6B3C /* DetailedClassCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDDCF35189EBB3A004F6B3C /* DetailedClassCell.m */; };
+		1EDDCF38189EBF50004F6B3C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDDCF37189EBF50004F6B3C /* MediaPlayer.framework */; };
+		3F1377EE189DE29700D1427C /* AllClassesDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1377ED189DE29700D1427C /* AllClassesDetailedViewController.m */; };
+		3F1FAFBC189EEC6D0033D56C /* AvenirLT-Heavy.eot in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFAC189EEC6D0033D56C /* AvenirLT-Heavy.eot */; };
+		3F1FAFBD189EEC6D0033D56C /* AvenirLT-Heavy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFAD189EEC6D0033D56C /* AvenirLT-Heavy.svg */; };
+		3F1FAFBE189EEC6D0033D56C /* AvenirLT-Heavy.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFAE189EEC6D0033D56C /* AvenirLT-Heavy.woff */; };
+		3F1FAFBF189EEC6D0033D56C /* AvenirLT-Light.eot in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFAF189EEC6D0033D56C /* AvenirLT-Light.eot */; };
+		3F1FAFC0189EEC6D0033D56C /* AvenirLT-Light.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFB0189EEC6D0033D56C /* AvenirLT-Light.svg */; };
+		3F1FAFC1189EEC6D0033D56C /* AvenirLT-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFB1189EEC6D0033D56C /* AvenirLT-Light.woff */; };
+		3F1FAFC2189EEC6D0033D56C /* AvenirLT-Medium.eot in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFB2189EEC6D0033D56C /* AvenirLT-Medium.eot */; };
+		3F1FAFC3189EEC6D0033D56C /* AvenirLT-Medium.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFB3189EEC6D0033D56C /* AvenirLT-Medium.svg */; };
+		3F1FAFC4189EEC6D0033D56C /* AvenirLT-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFB4189EEC6D0033D56C /* AvenirLT-Medium.woff */; };
+		3F1FAFC5189EEC6D0033D56C /* AvenirLT-Roman.eot in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFB5189EEC6D0033D56C /* AvenirLT-Roman.eot */; };
+		3F1FAFC6189EEC6D0033D56C /* AvenirLT-Roman.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFB6189EEC6D0033D56C /* AvenirLT-Roman.svg */; };
+		3F1FAFC7189EEC6D0033D56C /* AvenirLT-Roman.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFB7189EEC6D0033D56C /* AvenirLT-Roman.woff */; };
+		3F1FAFC8189EEC6D0033D56C /* AvenirLTPro-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFB8189EEC6D0033D56C /* AvenirLTPro-Heavy.ttf */; };
+		3F1FAFC9189EEC6D0033D56C /* AvenirLTPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFB9189EEC6D0033D56C /* AvenirLTPro-Light.ttf */; };
+		3F1FAFCA189EEC6D0033D56C /* AvenirLTPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFBA189EEC6D0033D56C /* AvenirLTPro-Medium.ttf */; };
+		3F1FAFCB189EEC6D0033D56C /* AvenirLTPro-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F1FAFBB189EEC6D0033D56C /* AvenirLTPro-Roman.ttf */; };
+		3F457123189F049F009D5EE1 /* object.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F457122189F049F009D5EE1 /* object.png */; };
+		3F457126189F06DF009D5EE1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F457125189F06DF009D5EE1 /* FirstViewController.m */; };
+		3FE811E8189DB414007C5E62 /* AllClassesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE811E7189DB414007C5E62 /* AllClassesCell.m */; };
+		3FE811EB189DBBB5007C5E62 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE811EA189DBBB5007C5E62 /* XMLParser.m */; };
+		3FE811EE189DBCD2007C5E62 /* AllCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE811ED189DBCD2007C5E62 /* AllCoursesViewController.m */; };
+		3FE811F1189DC3F3007C5E62 /* Courses_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE811F0189DC3F3007C5E62 /* Courses_Model.m */; };
+		CDBB1319189F3D68004D505C /* team_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDBB1318189F3D68004D505C /* team_pic.jpg */; };
 		CDFE4BE4189B1BFB00BF36B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE4BE3189B1BFB00BF36B5 /* Foundation.framework */; };
 		CDFE4BE6189B1BFB00BF36B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE4BE5189B1BFB00BF36B5 /* CoreGraphics.framework */; };
 		CDFE4BE8189B1BFB00BF36B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE4BE7189B1BFB00BF36B5 /* UIKit.framework */; };
 		CDFE4BEE189B1BFB00BF36B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDFE4BEC189B1BFB00BF36B5 /* InfoPlist.strings */; };
 		CDFE4BF0189B1BFB00BF36B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4BEF189B1BFB00BF36B5 /* main.m */; };
-		CDFE4BF4189B1BFB00BF36B5 /* RITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4BF3189B1BFB00BF36B5 /* RITAppDelegate.m */; };
+		CDFE4BF4189B1BFB00BF36B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4BF3189B1BFB00BF36B5 /* AppDelegate.m */; };
 		CDFE4BF7189B1BFC00BF36B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFE4BF5189B1BFC00BF36B5 /* Main.storyboard */; };
 		CDFE4BFF189B1BFC00BF36B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFE4BFE189B1BFC00BF36B5 /* Images.xcassets */; };
 		CDFE4C06189B1BFC00BF36B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE4C05189B1BFC00BF36B5 /* XCTest.framework */; };
@@ -34,6 +60,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EDDCF34189EBB3A004F6B3C /* DetailedClassCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedClassCell.h; sourceTree = "<group>"; };
+		1EDDCF35189EBB3A004F6B3C /* DetailedClassCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedClassCell.m; sourceTree = "<group>"; };
+		1EDDCF37189EBF50004F6B3C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3F1377EC189DE29700D1427C /* AllClassesDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllClassesDetailedViewController.h; sourceTree = "<group>"; };
+		3F1377ED189DE29700D1427C /* AllClassesDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllClassesDetailedViewController.m; sourceTree = "<group>"; };
+		3F1FAFAC189EEC6D0033D56C /* AvenirLT-Heavy.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLT-Heavy.eot"; sourceTree = "<group>"; };
+		3F1FAFAD189EEC6D0033D56C /* AvenirLT-Heavy.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AvenirLT-Heavy.svg"; sourceTree = "<group>"; };
+		3F1FAFAE189EEC6D0033D56C /* AvenirLT-Heavy.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLT-Heavy.woff"; sourceTree = "<group>"; };
+		3F1FAFAF189EEC6D0033D56C /* AvenirLT-Light.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLT-Light.eot"; sourceTree = "<group>"; };
+		3F1FAFB0189EEC6D0033D56C /* AvenirLT-Light.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AvenirLT-Light.svg"; sourceTree = "<group>"; };
+		3F1FAFB1189EEC6D0033D56C /* AvenirLT-Light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLT-Light.woff"; sourceTree = "<group>"; };
+		3F1FAFB2189EEC6D0033D56C /* AvenirLT-Medium.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLT-Medium.eot"; sourceTree = "<group>"; };
+		3F1FAFB3189EEC6D0033D56C /* AvenirLT-Medium.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AvenirLT-Medium.svg"; sourceTree = "<group>"; };
+		3F1FAFB4189EEC6D0033D56C /* AvenirLT-Medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLT-Medium.woff"; sourceTree = "<group>"; };
+		3F1FAFB5189EEC6D0033D56C /* AvenirLT-Roman.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLT-Roman.eot"; sourceTree = "<group>"; };
+		3F1FAFB6189EEC6D0033D56C /* AvenirLT-Roman.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AvenirLT-Roman.svg"; sourceTree = "<group>"; };
+		3F1FAFB7189EEC6D0033D56C /* AvenirLT-Roman.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLT-Roman.woff"; sourceTree = "<group>"; };
+		3F1FAFB8189EEC6D0033D56C /* AvenirLTPro-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTPro-Heavy.ttf"; sourceTree = "<group>"; };
+		3F1FAFB9189EEC6D0033D56C /* AvenirLTPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTPro-Light.ttf"; sourceTree = "<group>"; };
+		3F1FAFBA189EEC6D0033D56C /* AvenirLTPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTPro-Medium.ttf"; sourceTree = "<group>"; };
+		3F1FAFBB189EEC6D0033D56C /* AvenirLTPro-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTPro-Roman.ttf"; sourceTree = "<group>"; };
+		3F457122189F049F009D5EE1 /* object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = object.png; sourceTree = "<group>"; };
+		3F457124189F06DF009D5EE1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3F457125189F06DF009D5EE1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3FE811E6189DB414007C5E62 /* AllClassesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllClassesCell.h; sourceTree = "<group>"; };
+		3FE811E7189DB414007C5E62 /* AllClassesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllClassesCell.m; sourceTree = "<group>"; };
+		3FE811E9189DBBB5007C5E62 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		3FE811EA189DBBB5007C5E62 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		3FE811EC189DBCD2007C5E62 /* AllCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllCoursesViewController.h; sourceTree = "<group>"; };
+		3FE811ED189DBCD2007C5E62 /* AllCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllCoursesViewController.m; sourceTree = "<group>"; };
+		3FE811EF189DC3F3007C5E62 /* Courses_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Courses_Model.h; sourceTree = "<group>"; };
+		3FE811F0189DC3F3007C5E62 /* Courses_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Courses_Model.m; sourceTree = "<group>"; };
+		CDBB1318189F3D68004D505C /* team_pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = team_pic.jpg; sourceTree = "<group>"; };
 		CDFE4BE0189B1BFB00BF36B5 /* Climber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Climber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFE4BE3189B1BFB00BF36B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDFE4BE5189B1BFB00BF36B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,8 +101,8 @@
 		CDFE4BED189B1BFB00BF36B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDFE4BEF189B1BFB00BF36B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDFE4BF1189B1BFB00BF36B5 /* Climber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Climber-Prefix.pch"; sourceTree = "<group>"; };
-		CDFE4BF2189B1BFB00BF36B5 /* RITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITAppDelegate.h; sourceTree = "<group>"; };
-		CDFE4BF3189B1BFB00BF36B5 /* RITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITAppDelegate.m; sourceTree = "<group>"; };
+		CDFE4BF2189B1BFB00BF36B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDFE4BF3189B1BFB00BF36B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CDFE4BF6189B1BFC00BF36B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDFE4BFE189B1BFC00BF36B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDFE4C04189B1BFC00BF36B5 /* ClimberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EDDCF38189EBF50004F6B3C /* MediaPlayer.framework in Frameworks */,
 				CDFE4BE6189B1BFB00BF36B5 /* CoreGraphics.framework in Frameworks */,
 				CDFE4BE8189B1BFB00BF36B5 /* UIKit.framework in Frameworks */,
 				CDFE4BE4189B1BFB00BF36B5 /* Foundation.framework in Frameworks */,
@@ -78,9 +138,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F1FAFCC189EF2540033D56C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F1FAFAC189EEC6D0033D56C /* AvenirLT-Heavy.eot */,
+				3F1FAFAD189EEC6D0033D56C /* AvenirLT-Heavy.svg */,
+				3F1FAFAE189EEC6D0033D56C /* AvenirLT-Heavy.woff */,
+				3F1FAFAF189EEC6D0033D56C /* AvenirLT-Light.eot */,
+				3F1FAFB0189EEC6D0033D56C /* AvenirLT-Light.svg */,
+				3F1FAFB1189EEC6D0033D56C /* AvenirLT-Light.woff */,
+				3F1FAFB2189EEC6D0033D56C /* AvenirLT-Medium.eot */,
+				3F1FAFB3189EEC6D0033D56C /* AvenirLT-Medium.svg */,
+				3F1FAFB4189EEC6D0033D56C /* AvenirLT-Medium.woff */,
+				3F1FAFB5189EEC6D0033D56C /* AvenirLT-Roman.eot */,
+				3F1FAFB6189EEC6D0033D56C /* AvenirLT-Roman.svg */,
+				3F1FAFB7189EEC6D0033D56C /* AvenirLT-Roman.woff */,
+				3F1FAFB8189EEC6D0033D56C /* AvenirLTPro-Heavy.ttf */,
+				3F1FAFB9189EEC6D0033D56C /* AvenirLTPro-Light.ttf */,
+				3F1FAFBA189EEC6D0033D56C /* AvenirLTPro-Medium.ttf */,
+				3F1FAFBB189EEC6D0033D56C /* AvenirLTPro-Roman.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		CDFE4BD7189B1BFB00BF36B5 = {
 			isa = PBXGroup;
 			children = (
+				CDBB1318189F3D68004D505C /* team_pic.jpg */,
+				3F457122189F049F009D5EE1 /* object.png */,
+				3F1FAFCC189EF2540033D56C /* Fonts */,
 				CDFE4BE9189B1BFB00BF36B5 /* Climber */,
 				CDFE4C0B189B1BFC00BF36B5 /* ClimberTests */,
 				CDFE4BE2189B1BFB00BF36B5 /* Frameworks */,
@@ -100,6 +186,7 @@
 		CDFE4BE2189B1BFB00BF36B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1EDDCF37189EBF50004F6B3C /* MediaPlayer.framework */,
 				CDFE4BE3189B1BFB00BF36B5 /* Foundation.framework */,
 				CDFE4BE5189B1BFB00BF36B5 /* CoreGraphics.framework */,
 				CDFE4BE7189B1BFB00BF36B5 /* UIKit.framework */,
@@ -111,12 +198,26 @@
 		CDFE4BE9189B1BFB00BF36B5 /* Climber */ = {
 			isa = PBXGroup;
 			children = (
+				3FE811E6189DB414007C5E62 /* AllClassesCell.h */,
+				3FE811E7189DB414007C5E62 /* AllClassesCell.m */,
+				3F1377EC189DE29700D1427C /* AllClassesDetailedViewController.h */,
+				3F1377ED189DE29700D1427C /* AllClassesDetailedViewController.m */,
+				3FE811EC189DBCD2007C5E62 /* AllCoursesViewController.h */,
+				3FE811ED189DBCD2007C5E62 /* AllCoursesViewController.m */,
+				CDFE4BF2189B1BFB00BF36B5 /* AppDelegate.h */,
+				CDFE4BF3189B1BFB00BF36B5 /* AppDelegate.m */,
+				3FE811EF189DC3F3007C5E62 /* Courses_Model.h */,
+				3FE811F0189DC3F3007C5E62 /* Courses_Model.m */,
 				CDFE4C1D189D90B300BF36B5 /* courseware_datasource.xml */,
-				CDFE4BF2189B1BFB00BF36B5 /* RITAppDelegate.h */,
-				CDFE4BF3189B1BFB00BF36B5 /* RITAppDelegate.m */,
-				CDFE4BF5189B1BFC00BF36B5 /* Main.storyboard */,
+				1EDDCF34189EBB3A004F6B3C /* DetailedClassCell.h */,
+				1EDDCF35189EBB3A004F6B3C /* DetailedClassCell.m */,
 				CDFE4BFE189B1BFC00BF36B5 /* Images.xcassets */,
+				3F457124189F06DF009D5EE1 /* FirstViewController.h */,
+				3F457125189F06DF009D5EE1 /* FirstViewController.m */,
+				CDFE4BF5189B1BFC00BF36B5 /* Main.storyboard */,
 				CDFE4BEA189B1BFB00BF36B5 /* Supporting Files */,
+				3FE811E9189DBBB5007C5E62 /* XMLParser.h */,
+				3FE811EA189DBBB5007C5E62 /* XMLParser.m */,
 			);
 			path = Climber;
 			sourceTree = "<group>";
@@ -227,10 +328,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1FAFBC189EEC6D0033D56C /* AvenirLT-Heavy.eot in Resources */,
+				3F1FAFBD189EEC6D0033D56C /* AvenirLT-Heavy.svg in Resources */,
+				3F1FAFBE189EEC6D0033D56C /* AvenirLT-Heavy.woff in Resources */,
+				3F1FAFBF189EEC6D0033D56C /* AvenirLT-Light.eot in Resources */,
+				3F1FAFC0189EEC6D0033D56C /* AvenirLT-Light.svg in Resources */,
+				3F1FAFC1189EEC6D0033D56C /* AvenirLT-Light.woff in Resources */,
+				3F1FAFC2189EEC6D0033D56C /* AvenirLT-Medium.eot in Resources */,
+				CDBB1319189F3D68004D505C /* team_pic.jpg in Resources */,
+				3F1FAFC3189EEC6D0033D56C /* AvenirLT-Medium.svg in Resources */,
+				3F1FAFC4189EEC6D0033D56C /* AvenirLT-Medium.woff in Resources */,
+				3F1FAFC5189EEC6D0033D56C /* AvenirLT-Roman.eot in Resources */,
+				3F1FAFC6189EEC6D0033D56C /* AvenirLT-Roman.svg in Resources */,
+				3F1FAFC7189EEC6D0033D56C /* AvenirLT-Roman.woff in Resources */,
+				3F1FAFC8189EEC6D0033D56C /* AvenirLTPro-Heavy.ttf in Resources */,
+				3F1FAFC9189EEC6D0033D56C /* AvenirLTPro-Light.ttf in Resources */,
+				3F1FAFCA189EEC6D0033D56C /* AvenirLTPro-Medium.ttf in Resources */,
+				3F1FAFCB189EEC6D0033D56C /* AvenirLTPro-Roman.ttf in Resources */,
 				CDFE4BFF189B1BFC00BF36B5 /* Images.xcassets in Resources */,
 				CDFE4BEE189B1BFB00BF36B5 /* InfoPlist.strings in Resources */,
 				CDFE4C1E189D90B300BF36B5 /* courseware_datasource.xml in Resources */,
 				CDFE4BF7189B1BFC00BF36B5 /* Main.storyboard in Resources */,
+				3F457123189F049F009D5EE1 /* object.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +368,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFE4BF4189B1BFB00BF36B5 /* RITAppDelegate.m in Sources */,
+				3FE811F1189DC3F3007C5E62 /* Courses_Model.m in Sources */,
+				3F457126189F06DF009D5EE1 /* FirstViewController.m in Sources */,
+				3FE811EE189DBCD2007C5E62 /* AllCoursesViewController.m in Sources */,
+				1EDDCF36189EBB3A004F6B3C /* DetailedClassCell.m in Sources */,
+				CDFE4BF4189B1BFB00BF36B5 /* AppDelegate.m in Sources */,
+				3F1377EE189DE29700D1427C /* AllClassesDetailedViewController.m in Sources */,
 				CDFE4BF0189B1BFB00BF36B5 /* main.m in Sources */,
+				3FE811E8189DB414007C5E62 /* AllClassesCell.m in Sources */,
+				3FE811EB189DBBB5007C5E62 /* XMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

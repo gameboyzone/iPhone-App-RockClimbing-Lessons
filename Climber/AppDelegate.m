@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 RIT. All rights reserved.
 //
 
-#import "RITAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation RITAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
