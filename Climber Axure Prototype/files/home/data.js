@@ -1,0 +1,6315 @@
+﻿$axure.loadCurrentPage({
+  "url":"home.html",
+  "generationDate":new Date(1399061997508.5),
+  "isCanvasEnabled":false,
+  "variables":["courseName",
+"videoURL",
+"videoTitle"],
+  "page":{
+    "packageId":"e476afa0a6c74988b3056c1806ce8ff5",
+    "type":"Axure:Page",
+    "name":"Home",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+          "label":"Canvas1",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "selected":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onLoad":{
+              "description":"OnLoad",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set Canvas1 to State1 slide left out 500ms fade in 500ms",
+                      "panelsToStates":[{
+                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":1,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "animateOut":{
+                                "easing":"slideLeft",
+                                "duration":500},
+                              "animateIn":{
+                                "easing":"fade",
+                                "duration":500},
+                              "compress":false}}}]},
+{
+                      "action":"wait",
+                      "description":"Wait 2500 ms",
+                      "waitTime":2500},
+{
+                      "action":"setPanelState",
+                      "description":"Set Canvas1 to State2 fade out 500ms fade in 500ms",
+                      "panelsToStates":[{
+                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":2,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "animateOut":{
+                                "easing":"fade",
+                                "duration":500},
+                              "animateIn":{
+                                "easing":"fade",
+                                "duration":500},
+                              "compress":false}}}]}]}]}},
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"4f3e812fa8994cbf9b3de150df2c3182",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"c3fa3205397f4054a42bf1dbe2466dfb",
+                  "label":"",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":0,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":320,
+                      "height":568},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"6042a9a2392344d89558f62460723c36",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":320,
+                          "height":568},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/home/u1.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"b3d712ea5a33434a96e27e44d50ccee3",
+              "label":"State2",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"6917129bacce4f2e8d9c6149070dacf6",
+                  "label":"",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":1,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":321,
+                      "height":569}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"06048ef1ad084754a812e0cae1be778f",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":1,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":321,
+                          "height":569}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/home/u3.png"}},
+{
+                  "id":"bb389e22a341454cbc25780291911e74",
+                  "label":"Tab:Information",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":1,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":209,
+                      "y":520},
+                    "size":{
+                      "width":60,
+                      "height":49},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "cornerRadiusTopLeft":"5"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"db99b69dd3bf4733b789f3b390ece7bd",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":1,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":209,
+                          "y":520},
+                        "size":{
+                          "width":60,
+                          "height":49},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "cornerRadiusTopLeft":"5"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Canvas1 to State3 fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":3,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"72e963c9eb524fd3b1164a90696717ab",
+                  "label":"Tab:Course1",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":1,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":0,
+                      "y":80},
+                    "size":{
+                      "width":321,
+                      "height":130},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "cornerRadiusTopLeft":"5"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"08b3fa7045f240c59d81edac97ff6fe5",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":1,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":0,
+                          "y":80},
+                        "size":{
+                          "width":321,
+                          "height":130},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "cornerRadiusTopLeft":"5"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of courseName equal to &quot;vooktv&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"courseName"},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"vooktv",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setPanelState",
+                              "description":"Set Canvas1 to State4 fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":4,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"ee530474727b400f9c1ab9b44de45e0c",
+                  "label":"Tab:Course2",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":1,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":0,
+                      "y":219.5},
+                    "size":{
+                      "width":321,
+                      "height":130},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "cornerRadiusTopLeft":"5"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"c03e16c977044afb81ab4db4e555dfe6",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":1,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":0,
+                          "y":219.5},
+                        "size":{
+                          "width":321,
+                          "height":130},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "cornerRadiusTopLeft":"5"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set value of courseName equal to &quot;howcast&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetGlobalVariableValue",
+                                    "arguments":[{
+                                        "exprType":"globalVariableLiteral",
+                                        "variableName":"courseName"},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"howcast",
+                                        "stos":[]}]}]}},
+{
+                              "action":"setPanelState",
+                              "description":"Set Canvas1 to State5 fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":5,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"fa5edbc5c6034b9ea8b19750ce7038fc",
+              "label":"State3",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"d046e9b3efa3472b8fe77b98ba961db8",
+                  "label":"",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":2,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":-1},
+                    "size":{
+                      "width":322,
+                      "height":570}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"82f36a34d391478e8fd3e31c7332503e",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":2,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":0,
+                          "y":-1},
+                        "size":{
+                          "width":322,
+                          "height":570}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/home/u11.png"}},
+{
+                  "id":"7ac2461892104350b8219e39f9928bee",
+                  "label":"Tab:Courseware",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":2,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":50,
+                      "y":520},
+                    "size":{
+                      "width":60,
+                      "height":49},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "cornerRadiusTopLeft":"5"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"655fa31fd1b248fdbd8429c409132c8c",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":2,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":50,
+                          "y":520},
+                        "size":{
+                          "width":60,
+                          "height":49},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "cornerRadiusTopLeft":"5"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Canvas1 to State2 fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"d2b6f3984c214ffebe1da6d82972b844",
+              "label":"State4",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"fb8fd00a06294a0ab0962881e0627c5d",
+                  "label":"",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":3,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":322,
+                      "height":214}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"a986ab79ce1e45d5967f5a7065013494",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":3,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":322,
+                          "height":214}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/home/u15.png"}},
+{
+                  "id":"9c00bc7d0b3c43cdb693167eea34826e",
+                  "label":"",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":3,
+                  "type":"dynamicPanel",
+                  "styleType":"dynamicPanel",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":214},
+                    "size":{
+                      "width":321,
+                      "height":355}},
+                  "adaptiveStyles":{
+},
+                  "scrollbars":"verticalAsNeeded",
+                  "fitToContent":false,
+                  "propagate":false,
+                  "diagrams":[{
+                      "id":"9b0dc2f39b7947139c00c469e0560fb8",
+                      "label":"State1",
+                      "type":"Axure:PanelDiagram",
+                      "objects":[{
+                          "id":"698e14faa23e4f9da8c150c295825a66",
+                          "label":"",
+                          "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "size":{
+                              "width":322,
+                              "height":646}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"fabfc92495e0467f8f23a52b12147d8c",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "size":{
+                                  "width":322,
+                                  "height":646}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u18.png"}},
+{
+                          "id":"b0fd871ce5414e38b39bec07ec14dfb6",
+                          "label":"Tab:OpenCourseLesson1",
+                          "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":5,
+                              "y":10},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"8f34407894c64644a46421695bc1d1fb",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":5,
+                                  "y":10},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"2a4422f0fbba4791b7ce82482e757cc0",
+                          "label":"Tab:OpenCourseLesson2",
+                          "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":5,
+                              "y":90},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"19164f56b0d547a3a138b41ec3a76a25",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":5,
+                                  "y":90},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;tXwV0YD222g&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"tXwV0YD222g",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"83126bedfff14094b73429c48365c002",
+                          "label":"Tab:OpenCourseLesson3",
+                          "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":170},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"5546404c3ed4436e9e2997e01c0c6b74",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":170},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;QfTIUKyqCWc&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"QfTIUKyqCWc",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"c6c96cab1a4c486e8456d9f12ac4c37c",
+                          "label":"Tab:OpenCourseLesson4",
+                          "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":5,
+                              "y":250},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"361e8212ead24fca8297b9acf6b32d01",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":5,
+                                  "y":250},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;m-FbtppVC7w&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"m-FbtppVC7w",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"6e5a2552d9f04e2fa8d623b8613da5d4",
+                          "label":"Tab:OpenCourseLesson1",
+                          "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":5,
+                              "y":330},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"3250ce258ed24814b2913ccc8393a7bc",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":5,
+                                  "y":330},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;jbIDnMmSLsc&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"jbIDnMmSLsc",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"33d62c01ab714d929d1716ff46ed6e14",
+                          "label":"Tab:OpenCourseLesson6",
+                          "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":5,
+                              "y":410},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"74a66d5bca8b4fc4b2b1feedf4e7e140",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":5,
+                                  "y":410},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gkMngYYadjE&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gkMngYYadjE",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"bf1dc39b0c3e47bfa431d7a5fab477dc",
+                          "label":"Tab:OpenCourseLesson7",
+                          "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":5,
+                              "y":490},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"92f0b2d05bdb4482a3251a9b045d339b",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":5,
+                                  "y":490},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;ddSTXPZuff8&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"ddSTXPZuff8",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"0ca99573cbff433e9e5506f70a034ebc",
+                          "label":"Tab:OpenCourseLesson8",
+                          "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":569},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"87245bf4b5b5401b94d1500928027e77",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"9c00bc7d0b3c43cdb693167eea34826e",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":569},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;q4rVY3sLQqA&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"q4rVY3sLQqA",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}}],
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "image":null,
+                        "imageHorizontalAlignment":"near",
+                        "imageVerticalAlignment":"near",
+                        "imageRepeat":"auto"},
+                      "adaptiveStyles":{
+}}]},
+{
+                  "id":"507df6c042184ab5b8f1f7bcdb602f2d",
+                  "label":"Tab:BackToDashboard",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":3,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":10,
+                      "y":28},
+                    "size":{
+                      "width":60,
+                      "height":30},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "cornerRadiusTopLeft":"5"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"e54cae2b513740e3af670a47cdd98d19",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":3,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":10,
+                          "y":28},
+                        "size":{
+                          "width":60,
+                          "height":30},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "cornerRadiusTopLeft":"5"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Canvas1 to State2 fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"75e3e5225250439988fca85eba40a50f",
+              "label":"State5",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"979f052b2d5247ecade293722699e9fb",
+                  "label":"",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":4,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":322,
+                      "height":215}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"036c1bb6aa19441899d981e0f57addac",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":4,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":322,
+                          "height":215}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/home/u38.png"}},
+{
+                  "id":"b0b4d657f75b4c9384959b6f1dede25f",
+                  "label":"",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":4,
+                  "type":"dynamicPanel",
+                  "styleType":"dynamicPanel",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":214},
+                    "size":{
+                      "width":321,
+                      "height":355}},
+                  "adaptiveStyles":{
+},
+                  "scrollbars":"verticalAsNeeded",
+                  "fitToContent":false,
+                  "propagate":false,
+                  "diagrams":[{
+                      "id":"4b94e7c8b2984b22b8391852626e2f72",
+                      "label":"State1",
+                      "type":"Axure:PanelDiagram",
+                      "objects":[{
+                          "id":"1741935c649a4898a03a5b0f3cc2dd46",
+                          "label":"",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"imageBox",
+                          "styleType":"imageBox",
+                          "visible":true,
+                          "style":{
+                            "size":{
+                              "width":324,
+                              "height":2785}},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"2c7680b9c0c348ac968570ca3ffcdd46",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "size":{
+                                  "width":324,
+                                  "height":2785}},
+                              "adaptiveStyles":{
+}}],
+                          "images":{
+                            "normal~":"images/home/u41.png"}},
+{
+                          "id":"e28e529aceb149e9b834883c671c23c1",
+                          "label":"Tab:OpenCourseLesson2_1",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":9},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"766aa410ac5946bbae33d39ef5fc44d6",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":9},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;QlZ7sMGavw4&quot;, and<br> value of videoTitle equal to &quot;Different Types of Indoor C...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"QlZ7sMGavw4",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"Different Types of Indoor Climbing",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"7a77e2f3748d4923832bb50093129939",
+                          "label":"Tab:OpenCourseLesson2_1",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":89},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"2125178445c14eaf821394cbd459aae6",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":89},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;30y8Uy0B_uk&quot;, and<br> value of videoTitle equal to &quot;5 Fundamentals of Indoor Ro...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"30y8Uy0B_uk",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"5 Fundamentals of Indoor Rock Climbing",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"cd69a3024b7a468ab52096b59384d6dc",
+                          "label":"Tab:OpenCourseLesson2_1",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":169},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"cd93841802aa4fc783383017612a3428",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":169},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;1IihoA3e0Kw&quot;, and<br> value of videoTitle equal to &quot;How to Grip Indoor Climbing...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"1IihoA3e0Kw",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to Grip Indoor Climbing Holds",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"c1db5c104a7c4643ab92d561f837c320",
+                          "label":"Tab:OpenCourseLesson2_1",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":249},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"f196c8008811489f891385ee069313e0",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":249},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;K6F_pKdIOlo&quot;, and<br> value of videoTitle equal to &quot;How to use Chalk for Indoor...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"K6F_pKdIOlo",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to use Chalk for Indoor Climbing",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"9c1950c587734e9f9231bd65ac787bf1",
+                          "label":"Tab:OpenCourseLesson2_1",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":326},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"f05c2a9e04ff4f35b8340d7db88e5e08",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":326},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;HIb1qPfz4Lo&quot;, and<br> value of videoTitle equal to &quot;How to fit a climbing harness&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"HIb1qPfz4Lo",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to fit a climbing harness",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"ad619c0a9127440c9a95217770741fc9",
+                          "label":"Tab:OpenCourseLesson2_1",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":406},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"966fb2911a8249f9b2454a102ca6839f",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":406},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;tFffbkXSgNI&quot;, and<br> value of videoTitle equal to &quot;How to tie figure 8 follow-...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"tFffbkXSgNI",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to tie figure 8 follow-through knot",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"f6f8d62a065e43d68f3c63872b4d9c80",
+                          "label":"Tab:OpenCourseLesson2_1",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":486},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"a2191e4d09154344b21a4d6e5b4d77ab",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":486},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;beVw41NwevU&quot;, and<br> value of videoTitle equal to &quot;How to set up a top-rope belay&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"beVw41NwevU",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to set up a top-rope belay",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"93fd83e243f04deaacda1888e758e378",
+                          "label":"Tab:OpenCourseLesson2_1",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":565},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"5373b2dd4753454cb9c93c0cb2844e21",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":565},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;w5ZT9M9m_2Y&quot;, and<br> value of videoTitle equal to &quot;How to use proper top-rope ...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"w5ZT9M9m_2Y",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to use proper top-rope belay method",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"143779e3eb6847a9bfdb0e80a5abcbd5",
+                          "label":"Tab:OpenCourseLesson2_1",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":645},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"51f974cae7af490b9ab0e8c73937780e",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":645},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;ePAc9xK9fac&quot;, and<br> value of videoTitle equal to &quot;How to Lower Climber in Top...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"ePAc9xK9fac",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to Lower Climber in Top-Rope Belay",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"d066daf1aa01429aa8ee7958629a5bbc",
+                          "label":"Tab:OpenCourseLesson2_10",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":725},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"03e9e84c9c2a455d9e44de1464c9e6ce",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":725},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;CrxgWU2BFBM&quot;, and<br> value of videoTitle equal to &quot;Using Commands before Top-R...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"CrxgWU2BFBM",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"Using Commands before Top-Rope Climbing",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"0a016942f02144da9d14d65d42d49837",
+                          "label":"Tab:OpenCourseLesson2_1",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":805},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"f4728a5fffca4cf2aa2796987691ef65",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":805},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;Y3sE9lz7eVA&quot;, and<br> value of videoTitle equal to &quot;Using Commands during Top-R...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"Y3sE9lz7eVA",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"Using Commands during Top-Rope Climbing",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"7a541277e379496f8d0945209c7b28e6",
+                          "label":"Tab:OpenCourseLesson2_1",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":885},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"e564da571103433296eed611df2250c9",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":885},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;PJdE8Ui2eno&quot;, and<br> value of videoTitle equal to &quot;How to use an Auto-Belay De...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"PJdE8Ui2eno",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to use an Auto-Belay Device",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"5ca91b2462054cac9fe5a189d8a0af66",
+                          "label":"Tab:OpenCourseLesson2_13",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":965},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"3b71d5afa9ab410f8acd23af0c966656",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":965},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;k7MXH55q28U&quot;, and<br> value of videoTitle equal to &quot;How to Clip on Lead for Ind...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"k7MXH55q28U",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to Clip on Lead for Indoor Climbing",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"f4bf9c24795942beb4bd8a3956dd7064",
+                          "label":"Tab:OpenCourseLesson2_14",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":1045},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"b8184d46beb94d119e1831f414a42daa",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":1045},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;qDaXVAFFSOw&quot;, and<br> value of videoTitle equal to &quot;How to Lead Belay for Indoo...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"qDaXVAFFSOw",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to Lead Belay for Indoor Climbing",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"512fe039faa14b09a38b2cfba71e19c1",
+                          "label":"Tab:OpenCourseLesson2_15",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":1125},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"d7ca2638f457420589e51c6966ac3251",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":1125},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;llX04Y8UkeY&quot;, and<br> value of videoTitle equal to &quot;How to Take and Catch a Lea...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"llX04Y8UkeY",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to Take and Catch a Lead Fall",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"d3f31d4b30834b9ebd824d6dce9df4b4",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":1205},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"e6c11a557c9845e9b62cd1ace0e80dbb",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":1205},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;YZJZ_poMdoI&quot;, and<br> value of videoTitle equal to &quot;5 Tips for Lead Climbing&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"YZJZ_poMdoI",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"5 Tips for Lead Climbing",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"e3734be582cb4bfdbf873a82b24ea365",
+                          "label":"Tab:OpenCourseLesson2_17",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":1285},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"ca9b66083a4a4cf68852724c7b61cdc2",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":1285},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;XJUUXv2NeVE&quot;, and<br> value of videoTitle equal to &quot;How to Spot for Indoor Clim...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"XJUUXv2NeVE",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to Spot for Indoor Climbing",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"555e41d8a2714ae791ee06d5521d7ece",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":1365},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"3bb0f2edeebf4e0a98cd0f688c5902b1",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":1365},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"c1d0914d9d394a728d87f37438359416",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":1445},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"586aa5ff11c44a35b76b13e196823619",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":1445},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"48e0d8c9efb44a8aac61e4df587d92b2",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":1525},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"1a93a58534c348949579ad09b6939118",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":1525},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"d03d2d7b17e241f1a10bdf10516643f1",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":1605},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"a662bb7761594e04841c7a9ee91baeab",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":1605},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"60b1eedbdd904719bb637749210897b7",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":1685},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"8d99530a9e374efd8535cc023e565dc8",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":1685},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"b6487800f39c450cb16b19d5267a3712",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":1765},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"74438f04490644bf9f97d72d06c0afd4",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":1765},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"708c087e65ea480eb3ece4eee9e85ad6",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":1846},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"8d296278bcd64154a888c98f97736fe5",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":1846},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"c83cf5310c4b421a83f898394778d9cd",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":1926},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"2d2fa251907c4f94abb6366e98b25a83",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":1926},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"bc790033d5484c36a23c70cc26089767",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":2006},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"8490712bdb7143c4b3ac954475b43766",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":2006},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"f45fb0e18b43417390e950ea793e6407",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":2086},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"e78ed920558d44e58f0384caf7953d10",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":2086},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"2eb07640740d4e809cb0865eb46c8bdb",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":2167},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"8621ba7280d44ae1a2bcfade8c61fd13",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":2167},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"f1363916a4e1417691e06d6b88d1e4bb",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":2248},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"baed83b7af7e445f95c97232787eae97",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":2248},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;gLfvk2SSj1c&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"gLfvk2SSj1c",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"c2464d6821a44498b60ba0c1ae1dd7b9",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":2327},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"7cc6d5e5c0f648a1ab9a3241a43b40e2",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":2327},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;Q0cVnZZliOg&quot;, and<br> value of videoTitle equal to &quot;How to Pick the Right Belay...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"Q0cVnZZliOg",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to Pick the Right Belay Device",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"3852e6f95f9e459f8a41d5206a74bdfa",
+                          "label":"Tab:OpenCourseLesson2_31",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":2407},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"8b15bc73481f427e999c9dcea12af9b9",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":2407},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;llX04Y8UkeY&quot;, and<br> value of videoTitle equal to &quot;How to Take and Catch a Lea...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"llX04Y8UkeY",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to Take and Catch a Lead Fall",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"ecfaf4ec0ba140edb9691430f1477338",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":2488},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"01ac0f82e00e4e2e999ccfdee13eef12",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":2488},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;nUJAI7CuRO0&quot;, and<br> value of videoTitle equal to &quot;How to Understand Climbing ...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"nUJAI7CuRO0",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to Understand Climbing Terminology",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"10c2df05f93f4037bbb746f00390e985",
+                          "label":"Tab:OpenCourseLesson2_33",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":2563},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"c683dae3a26b4aa4aa393df926b5e139",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":2563},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;_7l3OxQodF0&quot;, and<br> value of videoTitle equal to &quot;How to Use a Campus Board&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"_7l3OxQodF0",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to Use a Campus Board",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"185895fc7f0545cfa6146bc7645619bd",
+                          "label":"Tab:OpenCourseLesson2_34",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":2638},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"c17ef7a17cb1449485a3691a01d6b7fc",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":2638},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;q5HRGOepUzE&quot;, and<br> value of videoTitle equal to &quot;How to Use a Hangboard&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"q5HRGOepUzE",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to Use a Hangboard",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}},
+{
+                          "id":"676bcb751d1b4e3f98097a104a613b7f",
+                          "label":"Tab:OpenCourseLesson2_35",
+                          "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                          "panelIndex":0,
+                          "type":"buttonShape",
+                          "styleType":"buttonShape",
+                          "visible":true,
+                          "style":{
+                            "fill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "location":{
+                              "x":6,
+                              "y":2713},
+                            "size":{
+                              "width":310,
+                              "height":65},
+                            "borderFill":{
+                              "fillType":"solid",
+                              "color":0xFFFFFF},
+                            "cornerRadiusTopLeft":"5"},
+                          "adaptiveStyles":{
+},
+                          "objects":[{
+                              "id":"6a91334d7e554e868fb0dcd99fd35c0a",
+                              "label":"",
+                              "isContained":true,
+                              "parentDynamicPanel":"b0b4d657f75b4c9384959b6f1dede25f",
+                              "panelIndex":0,
+                              "type":"richTextPanel",
+                              "styleType":"paragraph",
+                              "visible":true,
+                              "style":{
+                                "fill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "location":{
+                                  "x":6,
+                                  "y":2713},
+                                "size":{
+                                  "width":310,
+                                  "height":65},
+                                "borderFill":{
+                                  "fillType":"solid",
+                                  "color":0xFFFFFF},
+                                "cornerRadiusTopLeft":"5"},
+                              "adaptiveStyles":{
+}}],
+                          "interactionMap":{
+                            "onClick":{
+                              "description":"OnClick",
+                              "cases":[{
+                                  "description":"Case 1",
+                                  "isNewIfGroup":false,
+                                  "actions":[{
+                                      "action":"setFunction",
+                                      "description":"Set value of videoURL equal to &quot;FiMYP3fslWU&quot;, and<br> value of videoTitle equal to &quot;How to Rock Climb with Clif...&quot;",
+                                      "expr":{
+                                        "exprType":"block",
+                                        "subExprs":[{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoURL"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"FiMYP3fslWU",
+                                                "stos":[]}]},
+{
+                                            "exprType":"fcall",
+                                            "functionName":"SetGlobalVariableValue",
+                                            "arguments":[{
+                                                "exprType":"globalVariableLiteral",
+                                                "variableName":"videoTitle"},
+{
+                                                "exprType":"stringLiteral",
+                                                "value":"How to Rock Climb with Cliff Simanski",
+                                                "stos":[]}]}]}},
+{
+                                      "action":"setPanelState",
+                                      "description":"Set Canvas1 to State6 fade in 500ms",
+                                      "panelsToStates":[{
+                                          "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                          "stateInfo":{
+                                            "setStateType":"diagram",
+                                            "stateNumber":6,
+                                            "stateValue":{
+                                              "exprType":"stringLiteral",
+                                              "value":"1",
+                                              "stos":[]},
+                                            "loop":false,
+                                            "showWhenSet":false,
+                                            "options":{
+                                              "animateIn":{
+                                                "easing":"fade",
+                                                "duration":500},
+                                              "compress":false}}}]},
+{
+                                      "action":"linkFrame",
+                                      "description":"Open http://www.youtube.com/embed/[[videoURL]] in (Inline Frame)",
+                                      "linkType":"frame",
+                                      "framesToTargets":[{
+                                          "framePath":["c5453600c25e4bf1a60f833d70c7a146"],
+                                          "target":{
+                                            "targetType":"webUrl",
+                                            "urlLiteral":{
+                                              "exprType":"stringLiteral",
+                                              "value":"http://www.youtube.com/embed/[[videoURL]]",
+                                              "localVariables":{
+},
+                                              "stos":[{
+                                                  "sto":"var",
+                                                  "name":"videourl"}]},
+                                            "includeVariables":false}}]}]}]}},
+                          "tabbable":true,
+                          "images":{
+                            "normal~":"resources/images/transparent.gif"}}],
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "image":null,
+                        "imageHorizontalAlignment":"near",
+                        "imageVerticalAlignment":"near",
+                        "imageRepeat":"auto"},
+                      "adaptiveStyles":{
+}}]},
+{
+                  "id":"4085d7cc7ede4c99bb45b3b6b945e6d3",
+                  "label":"Tab:BackToDashboard",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":4,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":10,
+                      "y":28},
+                    "size":{
+                      "width":60,
+                      "height":30},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "cornerRadiusTopLeft":"5"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"29b45d1aa2484084aa7326d95cce5f57",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":4,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":10,
+                          "y":28},
+                        "size":{
+                          "width":60,
+                          "height":30},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "cornerRadiusTopLeft":"5"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Canvas1 to State2 fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"4ca672e5dd3c44f5892ece7a9e76a346",
+              "label":"State6",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"4507775148d045239f52bb77519c3af9",
+                  "label":"",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":5,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":321,
+                      "height":571}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"3dc6d263f07e4277b3ed9e77c72b2738",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":5,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":321,
+                          "height":571}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/home/u115.png"}},
+{
+                  "id":"5f81aa24e818489db69b0dd126838855",
+                  "label":"Tab:BackToDashboard",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":5,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "location":{
+                      "x":10,
+                      "y":28},
+                    "size":{
+                      "width":30,
+                      "height":30},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFF},
+                    "cornerRadiusTopLeft":"5"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"cf63deed4bae464c94255edcd58b3d95",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                      "panelIndex":5,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "location":{
+                          "x":10,
+                          "y":28},
+                        "size":{
+                          "width":30,
+                          "height":30},
+                        "borderFill":{
+                          "fillType":"solid",
+                          "color":0xFFFFFF},
+                        "cornerRadiusTopLeft":"5"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1<br> (If value of courseName equals &quot;vooktv&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetGlobalVariableValue",
+                              "arguments":[{
+                                  "exprType":"globalVariableLiteral",
+                                  "variableName":"courseName"}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"vooktv",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Canvas1 to State4 fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":4,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set Variable",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[]}}]},
+{
+                          "description":"Case 2<br> (Else If True)",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Canvas1 to State5 fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["3d972cb8b0fc4dcd8c3ee25330fc5abf"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":5,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]},
+{
+                              "action":"setFunction",
+                              "description":"Set Variable",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[]}}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"c5453600c25e4bf1a60f833d70c7a146",
+                  "label":"",
+                  "parentDynamicPanel":"3d972cb8b0fc4dcd8c3ee25330fc5abf",
+                  "panelIndex":5,
+                  "type":"inlineFrame",
+                  "styleType":"inlineFrame",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":65},
+                    "size":{
+                      "width":321,
+                      "height":504}},
+                  "adaptiveStyles":{
+},
+                  "target":{
+                    "targetType":"webUrl",
+                    "urlLiteral":{
+                      "exprType":"stringLiteral",
+                      "value":"http://www.youtube.com/embed/[[videoURL]]",
+                      "localVariables":{
+},
+                      "stos":[{
+                          "sto":"var",
+                          "name":"videourl"}]},
+                    "includeVariables":false}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "3d972cb8b0fc4dcd8c3ee25330fc5abf":{
+      "scriptId":"u0"},
+    "c3fa3205397f4054a42bf1dbe2466dfb":{
+      "scriptId":"u1"},
+    "6042a9a2392344d89558f62460723c36":{
+      "scriptId":"u2"},
+    "6917129bacce4f2e8d9c6149070dacf6":{
+      "scriptId":"u3"},
+    "06048ef1ad084754a812e0cae1be778f":{
+      "scriptId":"u4"},
+    "bb389e22a341454cbc25780291911e74":{
+      "scriptId":"u5"},
+    "db99b69dd3bf4733b789f3b390ece7bd":{
+      "scriptId":"u6"},
+    "72e963c9eb524fd3b1164a90696717ab":{
+      "scriptId":"u7"},
+    "08b3fa7045f240c59d81edac97ff6fe5":{
+      "scriptId":"u8"},
+    "ee530474727b400f9c1ab9b44de45e0c":{
+      "scriptId":"u9"},
+    "c03e16c977044afb81ab4db4e555dfe6":{
+      "scriptId":"u10"},
+    "d046e9b3efa3472b8fe77b98ba961db8":{
+      "scriptId":"u11"},
+    "82f36a34d391478e8fd3e31c7332503e":{
+      "scriptId":"u12"},
+    "7ac2461892104350b8219e39f9928bee":{
+      "scriptId":"u13"},
+    "655fa31fd1b248fdbd8429c409132c8c":{
+      "scriptId":"u14"},
+    "fb8fd00a06294a0ab0962881e0627c5d":{
+      "scriptId":"u15"},
+    "a986ab79ce1e45d5967f5a7065013494":{
+      "scriptId":"u16"},
+    "9c00bc7d0b3c43cdb693167eea34826e":{
+      "scriptId":"u17"},
+    "698e14faa23e4f9da8c150c295825a66":{
+      "scriptId":"u18"},
+    "fabfc92495e0467f8f23a52b12147d8c":{
+      "scriptId":"u19"},
+    "b0fd871ce5414e38b39bec07ec14dfb6":{
+      "scriptId":"u20"},
+    "8f34407894c64644a46421695bc1d1fb":{
+      "scriptId":"u21"},
+    "2a4422f0fbba4791b7ce82482e757cc0":{
+      "scriptId":"u22"},
+    "19164f56b0d547a3a138b41ec3a76a25":{
+      "scriptId":"u23"},
+    "83126bedfff14094b73429c48365c002":{
+      "scriptId":"u24"},
+    "5546404c3ed4436e9e2997e01c0c6b74":{
+      "scriptId":"u25"},
+    "c6c96cab1a4c486e8456d9f12ac4c37c":{
+      "scriptId":"u26"},
+    "361e8212ead24fca8297b9acf6b32d01":{
+      "scriptId":"u27"},
+    "6e5a2552d9f04e2fa8d623b8613da5d4":{
+      "scriptId":"u28"},
+    "3250ce258ed24814b2913ccc8393a7bc":{
+      "scriptId":"u29"},
+    "33d62c01ab714d929d1716ff46ed6e14":{
+      "scriptId":"u30"},
+    "74a66d5bca8b4fc4b2b1feedf4e7e140":{
+      "scriptId":"u31"},
+    "bf1dc39b0c3e47bfa431d7a5fab477dc":{
+      "scriptId":"u32"},
+    "92f0b2d05bdb4482a3251a9b045d339b":{
+      "scriptId":"u33"},
+    "0ca99573cbff433e9e5506f70a034ebc":{
+      "scriptId":"u34"},
+    "87245bf4b5b5401b94d1500928027e77":{
+      "scriptId":"u35"},
+    "507df6c042184ab5b8f1f7bcdb602f2d":{
+      "scriptId":"u36"},
+    "e54cae2b513740e3af670a47cdd98d19":{
+      "scriptId":"u37"},
+    "979f052b2d5247ecade293722699e9fb":{
+      "scriptId":"u38"},
+    "036c1bb6aa19441899d981e0f57addac":{
+      "scriptId":"u39"},
+    "b0b4d657f75b4c9384959b6f1dede25f":{
+      "scriptId":"u40"},
+    "1741935c649a4898a03a5b0f3cc2dd46":{
+      "scriptId":"u41"},
+    "2c7680b9c0c348ac968570ca3ffcdd46":{
+      "scriptId":"u42"},
+    "e28e529aceb149e9b834883c671c23c1":{
+      "scriptId":"u43"},
+    "766aa410ac5946bbae33d39ef5fc44d6":{
+      "scriptId":"u44"},
+    "7a77e2f3748d4923832bb50093129939":{
+      "scriptId":"u45"},
+    "2125178445c14eaf821394cbd459aae6":{
+      "scriptId":"u46"},
+    "cd69a3024b7a468ab52096b59384d6dc":{
+      "scriptId":"u47"},
+    "cd93841802aa4fc783383017612a3428":{
+      "scriptId":"u48"},
+    "c1db5c104a7c4643ab92d561f837c320":{
+      "scriptId":"u49"},
+    "f196c8008811489f891385ee069313e0":{
+      "scriptId":"u50"},
+    "9c1950c587734e9f9231bd65ac787bf1":{
+      "scriptId":"u51"},
+    "f05c2a9e04ff4f35b8340d7db88e5e08":{
+      "scriptId":"u52"},
+    "ad619c0a9127440c9a95217770741fc9":{
+      "scriptId":"u53"},
+    "966fb2911a8249f9b2454a102ca6839f":{
+      "scriptId":"u54"},
+    "f6f8d62a065e43d68f3c63872b4d9c80":{
+      "scriptId":"u55"},
+    "a2191e4d09154344b21a4d6e5b4d77ab":{
+      "scriptId":"u56"},
+    "93fd83e243f04deaacda1888e758e378":{
+      "scriptId":"u57"},
+    "5373b2dd4753454cb9c93c0cb2844e21":{
+      "scriptId":"u58"},
+    "143779e3eb6847a9bfdb0e80a5abcbd5":{
+      "scriptId":"u59"},
+    "51f974cae7af490b9ab0e8c73937780e":{
+      "scriptId":"u60"},
+    "d066daf1aa01429aa8ee7958629a5bbc":{
+      "scriptId":"u61"},
+    "03e9e84c9c2a455d9e44de1464c9e6ce":{
+      "scriptId":"u62"},
+    "0a016942f02144da9d14d65d42d49837":{
+      "scriptId":"u63"},
+    "f4728a5fffca4cf2aa2796987691ef65":{
+      "scriptId":"u64"},
+    "7a541277e379496f8d0945209c7b28e6":{
+      "scriptId":"u65"},
+    "e564da571103433296eed611df2250c9":{
+      "scriptId":"u66"},
+    "5ca91b2462054cac9fe5a189d8a0af66":{
+      "scriptId":"u67"},
+    "3b71d5afa9ab410f8acd23af0c966656":{
+      "scriptId":"u68"},
+    "f4bf9c24795942beb4bd8a3956dd7064":{
+      "scriptId":"u69"},
+    "b8184d46beb94d119e1831f414a42daa":{
+      "scriptId":"u70"},
+    "512fe039faa14b09a38b2cfba71e19c1":{
+      "scriptId":"u71"},
+    "d7ca2638f457420589e51c6966ac3251":{
+      "scriptId":"u72"},
+    "d3f31d4b30834b9ebd824d6dce9df4b4":{
+      "scriptId":"u73"},
+    "e6c11a557c9845e9b62cd1ace0e80dbb":{
+      "scriptId":"u74"},
+    "e3734be582cb4bfdbf873a82b24ea365":{
+      "scriptId":"u75"},
+    "ca9b66083a4a4cf68852724c7b61cdc2":{
+      "scriptId":"u76"},
+    "555e41d8a2714ae791ee06d5521d7ece":{
+      "scriptId":"u77"},
+    "3bb0f2edeebf4e0a98cd0f688c5902b1":{
+      "scriptId":"u78"},
+    "c1d0914d9d394a728d87f37438359416":{
+      "scriptId":"u79"},
+    "586aa5ff11c44a35b76b13e196823619":{
+      "scriptId":"u80"},
+    "48e0d8c9efb44a8aac61e4df587d92b2":{
+      "scriptId":"u81"},
+    "1a93a58534c348949579ad09b6939118":{
+      "scriptId":"u82"},
+    "d03d2d7b17e241f1a10bdf10516643f1":{
+      "scriptId":"u83"},
+    "a662bb7761594e04841c7a9ee91baeab":{
+      "scriptId":"u84"},
+    "60b1eedbdd904719bb637749210897b7":{
+      "scriptId":"u85"},
+    "8d99530a9e374efd8535cc023e565dc8":{
+      "scriptId":"u86"},
+    "b6487800f39c450cb16b19d5267a3712":{
+      "scriptId":"u87"},
+    "74438f04490644bf9f97d72d06c0afd4":{
+      "scriptId":"u88"},
+    "708c087e65ea480eb3ece4eee9e85ad6":{
+      "scriptId":"u89"},
+    "8d296278bcd64154a888c98f97736fe5":{
+      "scriptId":"u90"},
+    "c83cf5310c4b421a83f898394778d9cd":{
+      "scriptId":"u91"},
+    "2d2fa251907c4f94abb6366e98b25a83":{
+      "scriptId":"u92"},
+    "bc790033d5484c36a23c70cc26089767":{
+      "scriptId":"u93"},
+    "8490712bdb7143c4b3ac954475b43766":{
+      "scriptId":"u94"},
+    "f45fb0e18b43417390e950ea793e6407":{
+      "scriptId":"u95"},
+    "e78ed920558d44e58f0384caf7953d10":{
+      "scriptId":"u96"},
+    "2eb07640740d4e809cb0865eb46c8bdb":{
+      "scriptId":"u97"},
+    "8621ba7280d44ae1a2bcfade8c61fd13":{
+      "scriptId":"u98"},
+    "f1363916a4e1417691e06d6b88d1e4bb":{
+      "scriptId":"u99"},
+    "baed83b7af7e445f95c97232787eae97":{
+      "scriptId":"u100"},
+    "c2464d6821a44498b60ba0c1ae1dd7b9":{
+      "scriptId":"u101"},
+    "7cc6d5e5c0f648a1ab9a3241a43b40e2":{
+      "scriptId":"u102"},
+    "3852e6f95f9e459f8a41d5206a74bdfa":{
+      "scriptId":"u103"},
+    "8b15bc73481f427e999c9dcea12af9b9":{
+      "scriptId":"u104"},
+    "ecfaf4ec0ba140edb9691430f1477338":{
+      "scriptId":"u105"},
+    "01ac0f82e00e4e2e999ccfdee13eef12":{
+      "scriptId":"u106"},
+    "10c2df05f93f4037bbb746f00390e985":{
+      "scriptId":"u107"},
+    "c683dae3a26b4aa4aa393df926b5e139":{
+      "scriptId":"u108"},
+    "185895fc7f0545cfa6146bc7645619bd":{
+      "scriptId":"u109"},
+    "c17ef7a17cb1449485a3691a01d6b7fc":{
+      "scriptId":"u110"},
+    "676bcb751d1b4e3f98097a104a613b7f":{
+      "scriptId":"u111"},
+    "6a91334d7e554e868fb0dcd99fd35c0a":{
+      "scriptId":"u112"},
+    "4085d7cc7ede4c99bb45b3b6b945e6d3":{
+      "scriptId":"u113"},
+    "29b45d1aa2484084aa7326d95cce5f57":{
+      "scriptId":"u114"},
+    "4507775148d045239f52bb77519c3af9":{
+      "scriptId":"u115"},
+    "3dc6d263f07e4277b3ed9e77c72b2738":{
+      "scriptId":"u116"},
+    "5f81aa24e818489db69b0dd126838855":{
+      "scriptId":"u117"},
+    "cf63deed4bae464c94255edcd58b3d95":{
+      "scriptId":"u118"},
+    "c5453600c25e4bf1a60f833d70c7a146":{
+      "scriptId":"u119"}}});
